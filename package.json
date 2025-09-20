@@ -1,0 +1,39 @@
+{
+  "name": "spy-test-suite",
+  "version": "1.0.0",
+  "description": "Comprehensive test suite for Spy game algorithms with fairness analysis",
+  "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "install:all": "npm run install",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "build": "npm run build --workspaces",
+    "clean": "npm run clean --workspaces"
+  },
+  "keywords": [
+    "testing",
+    "fairness",
+    "algorithms",
+    "spy-game",
+    "statistics",
+    "benchmarking"
+  ],
+  "author": "Advay Chandorkar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/advayc/spy-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/advayc/spy-test/issues"
+  },
+  "homepage": "https://github.com/advayc/spy-test#readme",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
